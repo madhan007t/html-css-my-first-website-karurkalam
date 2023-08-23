@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 80%;
+}
+body{
+    background-color: rgb(154, 181, 165);
+}
+.header{
+    background-color: rgb(47, 248, 255);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 35%;
+    cursor: pointer;
+}
+nav li:hover{
+    color: blueviolet;
+    scale: 1.5;
+
+}
+.button{
+    color: blueviolet;
+    background-color: blue;
+    border-radius: 50px;
+}
+.famous{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+.karur{
+    margin-left: 100px;
+    float: left;
+    display: flex;
+    
+
+}
+.karur :hover{
+    scale: 1.2;
+    color: red;
+}
+.textile{
+    margin-left: 100px;
+    float: left;
+    
+
+}

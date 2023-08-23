@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 80%;
+}
+.header{
+    background-color: rgb(47, 248, 255);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 35%;
+    cursor: pointer;
+}
+nav li:hover{
+    color: blueviolet;
+    scale: 1.5;
+
+}
+.button{
+    color: blueviolet;
+    background-color: blue;
+    border-radius: 50px;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+}
+.temples{
+    float: left;
+    margin-top: 100px;
+
+}
+.temples :hover{
+    scale: 1.20;
+    color: green;
+}
